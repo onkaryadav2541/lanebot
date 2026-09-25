@@ -1,13 +1,6 @@
 # Autonomous Lane-Following Vehicle with PID Lateral Control
 
-Thesis code for **Onkar Yadav** (Matr. 100002351), SRH Hochschule Heidelberg,
-M.Sc. Applied Computer Science — supervisor Prof. Dr.-Ing. Kamellia Reshadi.
 
-This implements everything the approved exposé promises: dual-algorithm lane
-detection, PID lateral control, a telemetry dashboard with a digital twin,
-measured evaluation metrics, and tooling to test each of the four hypotheses.
-
----
 
 ## 1. Read this before you run anything
 
