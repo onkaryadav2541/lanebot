@@ -1,0 +1,42 @@
+{
+  "Histogram": {
+    "Algorithm": "histogram",
+    "Controller": "pid",
+    "Frames": 147,
+    "Duration (s)": 10.0,
+    "Detection rate (%)": 100.0,
+    "Mean |error| (px)": 14.73,
+    "RMS error (px)": 27.83,
+    "p95 |error| (px)": 77.93,
+    "Max |error| (px)": 79.89,
+    "Error bias (px)": 0.35,
+    "Error std (px)": 27.82,
+    "Centre crossings (1/s)": 5.31,
+    "Steer activity": 0.1899,
+    "Throughput (FPS)": 21.2,
+    "Median FPS": 57.4,
+    "Min FPS": 24.7,
+    "Mean latency (ms)": 34.5,
+    "p95 latency (ms)": 52.3
+  },
+  "Canny-Hough": {
+    "Algorithm": "canny_hough",
+    "Controller": "pid",
+    "Frames": 727,
+    "Duration (s)": 31.0,
+    "Detection rate (%)": 67.4,
+    "Mean |error| (px)": 78.61,
+    "RMS error (px)": 104.98,
+    "p95 |error| (px)": 160.0,
+    "Max |error| (px)": 160.0,
+    "Error bias (px)": 3.43,
+    "Error std (px)": 104.93,
+    "Centre crossings (1/s)": 4.86,
+    "Steer activity": 0.1292,
+    "Throughput (FPS)": 60.3,
+    "Median FPS": 78.8,
+    "Min FPS": 17.8,
+    "Mean latency (ms)": 29.1,
+    "p95 latency (ms)": 48.2
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "PID": {
+    "Algorithm": "histogram",
+    "Controller": "pid",
+    "Frames": 147,
+    "Duration (s)": 10.0,
+    "Detection rate (%)": 100.0,
+    "Mean |error| (px)": 14.73,
+    "RMS error (px)": 27.83,
+    "p95 |error| (px)": 77.93,
+    "Max |error| (px)": 79.89,
+    "Error bias (px)": 0.35,
+    "Error std (px)": 27.82,
+    "Centre crossings (1/s)": 5.31,
+    "Steer activity": 0.1899,
+    "Throughput (FPS)": 21.2,
+    "Median FPS": 57.4,
+    "Min FPS": 24.7,
+    "Mean latency (ms)": 34.5,
+    "p95 latency (ms)": 52.3
+  },
+  "Bang-bang": {
+    "Algorithm": "histogram",
+    "Controller": "bangbang",
+    "Frames": 171,
+    "Duration (s)": 11.0,
+    "Detection rate (%)": 100.0,
+    "Mean |error| (px)": 16.18,
+    "RMS error (px)": 30.4,
+    "p95 |error| (px)": 76.61,
+    "Max |error| (px)": 82.51,
+    "Error bias (px)": -0.54,
+    "Error std (px)": 30.39,
+    "Centre crossings (1/s)": 6.34,
+    "Steer activity": 0.0824,
+    "Throughput (FPS)": 31.5,
+    "Median FPS": 85.5,
+    "Min FPS": 24.9,
+    "Mean latency (ms)": 28.9,
+    "p95 latency (ms)": 46.5
+  }
+}

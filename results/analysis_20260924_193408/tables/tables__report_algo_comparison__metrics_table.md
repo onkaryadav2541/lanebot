@@ -1,0 +1,20 @@
+| Metric | Histogram | Canny-Hough |
+|---|---|---|
+| Algorithm | histogram | canny_hough |
+| Controller | pid | pid |
+| Frames | 147 | 727 |
+| Duration (s) | 10.0 | 31.0 |
+| Detection rate (%) | 100.0 | 67.4 |
+| Mean |error| (px) | 14.73 | 78.61 |
+| RMS error (px) | 27.83 | 104.98 |
+| p95 |error| (px) | 77.93 | 160.0 |
+| Max |error| (px) | 79.89 | 160.0 |
+| Error bias (px) | 0.35 | 3.43 |
+| Error std (px) | 27.82 | 104.93 |
+| Centre crossings (1/s) | 5.31 | 4.86 |
+| Steer activity | 0.1899 | 0.1292 |
+| Throughput (FPS) | 21.2 | 60.3 |
+| Median FPS | 57.4 | 78.8 |
+| Min FPS | 24.7 | 17.8 |
+| Mean latency (ms) | 34.5 | 29.1 |
+| p95 latency (ms) | 52.3 | 48.2 |

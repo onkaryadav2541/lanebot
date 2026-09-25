@@ -1,0 +1,64 @@
+{
+  "frames": 880,
+  "duration_s": 42.69,
+  "fps_throughput": 20.62,
+  "fps_instantaneous_mean": 78.5,
+  "fps_median": 96.01,
+  "fps_min": 0.26,
+  "latency_mean_ms": 25.86,
+  "latency_p95_ms": 43.64,
+  "latency_max_ms": 190.61,
+  "detection_rate": 0.9611,
+  "confidence_mean": 0.2296,
+  "mean_abs_error_px": 36.5,
+  "rms_error_px": 47.84,
+  "max_abs_error_px": 129.42,
+  "error_std_px": 45.02,
+  "oscillation_zero_crossings": 43,
+  "zero_crossings_per_s": 1.007,
+  "frames_armed": 463,
+  "frames_disarmed": 417,
+  "WARNING": "only 463 of 880 logged frames were driven (53 %); accuracy figures are computed over the driven frames only",
+  "H2_latency_under_80ms": true,
+  "H4_fps_at_least_15": true,
+  "stages": {
+    "t_grayscale": {
+      "mean_ms": 0.506,
+      "max_ms": 19.519
+    },
+    "t_blur": {
+      "mean_ms": 1.232,
+      "max_ms": 53.332
+    },
+    "t_threshold": {
+      "mean_ms": 0.488,
+      "max_ms": 13.456
+    },
+    "t_canny": {
+      "mean_ms": 1.523,
+      "max_ms": 50.388
+    },
+    "t_roi": {
+      "mean_ms": 0.055,
+      "max_ms": 0.282
+    },
+    "t_detect": {
+      "mean_ms": 4.538,
+      "max_ms": 15.763
+    },
+    "t_control": {
+      "mean_ms": 0.172,
+      "max_ms": 0.412
+    },
+    "t_render": {
+      "mean_ms": 35.64,
+      "max_ms": 3694.995
+    }
+  },
+  "algorithm": "histogram",
+  "controller": "pid",
+  "kp": 4.0,
+  "ki": 1.5,
+  "kd": 0.2,
+  "threshold_mode": "otsu"
+}

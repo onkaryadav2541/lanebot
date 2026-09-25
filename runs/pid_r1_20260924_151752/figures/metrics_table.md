@@ -1,0 +1,20 @@
+| Metric | histogram / pid |
+|---|---|
+| Algorithm | histogram |
+| Controller | pid |
+| Frames | 147 |
+| Duration (s) | 10.0 |
+| Detection rate (%) | 100.0 |
+| Mean |error| (px) | 14.73 |
+| RMS error (px) | 27.83 |
+| p95 |error| (px) | 77.93 |
+| Max |error| (px) | 79.89 |
+| Error bias (px) | 0.35 |
+| Error std (px) | 27.82 |
+| Centre crossings (1/s) | 5.31 |
+| Steer activity | 0.1899 |
+| Throughput (FPS) | 21.2 |
+| Median FPS | 57.4 |
+| Min FPS | 24.7 |
+| Mean latency (ms) | 34.5 |
+| p95 latency (ms) | 52.3 |
