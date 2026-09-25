@@ -288,14 +288,14 @@ class CannyHoughDetector(BaseDetector):
                     continue                      # near-horizontal -> not a lane
                 length = float(np.hypot(dx, dy))
                 mid_x = 0.5 * (x1 + x2)
-                if slope < 0 and mid_x < center_col * 1.15:
+                if  mid_x < center_col:
                     left_pts += [(y1, x1), (y2, x2)]
                     left_w += [length, length]
-                elif slope > 0 and mid_x > center_col * 0.85:
+                elif mid_x > center_col:
                     right_pts += [(y1, x1), (y2, x2)]
                     right_w += [length, length]
 
-        y_eval = rows - 1
+        y_eval = rows // 2
 
         def fit(points, weights):
             if len(points) < 2:

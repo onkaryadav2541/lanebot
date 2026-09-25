@@ -1,0 +1,64 @@
+{
+  "frames": 363,
+  "duration_s": 18.56,
+  "fps_throughput": 19.56,
+  "fps_instantaneous_mean": 43.37,
+  "fps_median": 57.63,
+  "fps_min": 1.08,
+  "latency_mean_ms": 32.73,
+  "latency_p95_ms": 51.2,
+  "latency_max_ms": 68.97,
+  "detection_rate": 1.0,
+  "confidence_mean": 1.0,
+  "mean_abs_error_px": 6.2,
+  "rms_error_px": 6.28,
+  "max_abs_error_px": 8.27,
+  "error_std_px": 1.01,
+  "oscillation_zero_crossings": 0,
+  "zero_crossings_per_s": 0.0,
+  "frames_armed": 0,
+  "frames_disarmed": 363,
+  "WARNING": "no frames were recorded with the motors armed: this run describes a stationary vehicle",
+  "H2_latency_under_80ms": true,
+  "H4_fps_at_least_15": true,
+  "stages": {
+    "t_grayscale": {
+      "mean_ms": 0.473,
+      "max_ms": 1.046
+    },
+    "t_blur": {
+      "mean_ms": 1.246,
+      "max_ms": 21.222
+    },
+    "t_threshold": {
+      "mean_ms": 0.437,
+      "max_ms": 1.791
+    },
+    "t_canny": {
+      "mean_ms": 1.355,
+      "max_ms": 6.732
+    },
+    "t_roi": {
+      "mean_ms": 0.056,
+      "max_ms": 0.248
+    },
+    "t_detect": {
+      "mean_ms": 4.934,
+      "max_ms": 13.961
+    },
+    "t_control": {
+      "mean_ms": 0.169,
+      "max_ms": 1.167
+    },
+    "t_render": {
+      "mean_ms": 30.211,
+      "max_ms": 867.988
+    }
+  },
+  "algorithm": "histogram",
+  "controller": "pid",
+  "kp": 4.0,
+  "ki": 1.5,
+  "kd": 0.2,
+  "threshold_mode": "otsu"
+}
